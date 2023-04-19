@@ -8,7 +8,7 @@
 ecsbill_sync <- function() {
 
   ecsbill = tsda::import('pyecsbill')
-  res = ecsbill$ecsbill_sync
+  res = ecsbill$ecsbill_sync()
   return(res)
 
 }
